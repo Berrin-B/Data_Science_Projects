@@ -8,6 +8,7 @@ Each project has its own folder with notebooks and supporting files.
 ### 1. Return Prediction
 - This project focuses on predicting whether an order will be returned or not, based on historical order data. The dataset contains sales, refunds, and product details.
 - Techniques: Random Forest Classification, Feature Engineering, One-Hot Encoding and more.
+- Dataset: https://www.kaggle.com/datasets/yaminh/product-sales-and-returns-dataset
 - Folder: `PROJECT_1_Return_Prediction/`
 
 ### 2. Used Car Price Prediction
