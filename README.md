@@ -14,6 +14,7 @@ Each project has its own folder with notebooks and supporting files.
 ### 2. Used Car Price Prediction
 - Predicting used car prices based on various features like year, manufacturer, and more.
 - Techniques: Random Forest Regression, Feature Engineering, One-Hot Encoding, Log Transformation and more.
+- Dataset: https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
 - Folder: `PROJECT_2_Used_Car_Price_Prediction/`
 
 
