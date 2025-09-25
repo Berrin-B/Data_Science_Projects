@@ -1,48 +1,23 @@
-# Return Prediction Project
+# Data Science Projects
 
-## Project Overview
-This project focuses on predicting whether an order will be returned or not, based on historical order data. The dataset contains sales, refunds, and product details.
+Welcome to my Data Science Projects Repository! This repository contains a collection of my data science projects, showcasing my skills and expertise in the field.
+Each project has its own folder with notebooks and supporting files.
 
-## Dataset
-The dataset used in this project is publicly available on [Kaggle](https://www.kaggle.com/datasets/yaminh/product-sales-and-returns-dataset) and contains transaction records including:
+## Projects
 
-- Category, Version, Buyer ID
-- Final Quantity, Total Revenue, Refunds
-- Refunded Item Count, Purchased Item Count
-- Date, Sales Tax, Overall Revenue
+### 1. Return Prediction
+- This project focuses on predicting whether an order will be returned or not, based on historical order data. The dataset contains sales, refunds, and product details.
+- Techniques: Random Forest Classification, Feature Engineering, One-Hot Encoding and more.
+- Folder: `PROJECT_1_Return_Prediction/`
 
-## Data Preprocessing
-Key preprocessing steps include:
+### 2. Used Car Price Prediction
+- Predicting used car prices based on various features like year, manufacturer, and more.
+- Techniques: Random Forest Regression, Feature Engineering, One-Hot Encoding, Log Transformation and more.
+- Folder: `PROJECT_2_Used_Car_Price_Prediction/`
 
-- Handling date features: extracting month, day of week, and weekend information.
-- Creating a target column `is_returned` based on negative quantities or refunds.
-- Encoding categorical features:
-  - **One-hot encoding** for `Category` and `day_of_week`.
-  - **Frequency encoding** for `Version`.
-- Undersampling the majority class to balance the dataset.
-
-## Model
-A **Random Forest Classifier** is trained on the preprocessed data. Key parameters include:
-
-- `n_estimators=200`
-- `max_depth=10`
-- `class_weight='balanced'`
-
-## Results
-After preprocessing and undersampling:
-
-- **Accuracy:** ~0.79
-- **Confusion Matrix:** [[1725,  166],
-                         [ 971, 2530]]
-
-  
-## How to Use
-1. Clone this repository.
-2. Open the notebook `return_prediction.ipynb` in Jupyter or Kaggle.
-3. Run the cells sequentially to reproduce the results.
 
 ## Notes
-- The dataset is already publicly available on Kaggle.
+- The datasets are already publicly available on Kaggle.
 - No private or sensitive information is included in this repository.
 - Contributions are welcome!
 
